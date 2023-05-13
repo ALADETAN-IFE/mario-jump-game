@@ -4,6 +4,7 @@ import "../../App.css";
 import { useSelector } from "react-redux";
 import { Birds, Bricks, Clouds, Mario, Obstacles, Sun, KeyMessage, LoadingScreen, Score, MobileControls, Footer } from "../../components";
 
+
 function Home() {
     const isPlay = useSelector((state) => state.engine.play);
     return (
